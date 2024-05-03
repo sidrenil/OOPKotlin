@@ -15,6 +15,11 @@ import com.example.oopkotlin.ui.theme.OOPKotlinTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        println("SINIFLAR")
+
+        val kullanici = Kullanici("sid", 23)
+        val digerKullanici = Kullanici("nil", 23)
         setContent {
             OOPKotlinTheme {
                 // A surface container using the 'background' color from the theme
